@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   const [count, setCount] = useState(0);
-  const [mode, setMode] = useState('dark');
+  const [mode, setMode] = useState('light');
   const [alert, setAlert] = useState(null);
 
   const showAlert = (message, type)=>{
